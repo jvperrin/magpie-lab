@@ -34,6 +34,18 @@ public class Magpie2
 		if (statement.indexOf("no") >= 0 || statement.indexOf("No") >= 0)
 		{
 			response = "Why so negative?";
+		} 
+		else if (statement.indexOf("Elliot") >= 0 || statement.indexOf("elliot") >= 0)
+		{
+			response = "Yes, Elliot is the ruler of the observable Universe and all Domains thereof.";
+		}
+		else if (statement.indexOf("Jason") >= 0 || statement.indexOf("jason") >= 0)
+		{
+			response = "Jason should have added the keywords himself so that he would get something cool said about him. But he didn't!";
+		}
+		else if (statement.indexOf("Sun") >= 0 || statement.indexOf("sun") >= 0)
+		{
+			response = "The sun is very hot.";
 		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
@@ -90,7 +102,7 @@ public class Magpie2
 		}
 		else if (whichResponse == 4)
 		{
-			 response = "I beat kittins with toddlers. I have a problem :(";
+			 response = "The HORSE is a noble animal.";
 		}
 		else if (whichResponse == 5)
 		{
